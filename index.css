@@ -1,3 +1,9 @@
+@media only screen and (max-width:920px){
+  html{
+    color: black;
+    background-color: #F15A29;
+  }
+}
 .main{
   text-align: center;
   background-image: url("images/Copy\ of\ landing.jpg");
@@ -6,18 +12,19 @@ strong{
   color: white;
 }
 p.text{
-  color: lightgray;
+  color: rgb(241, 235, 235);
   font-size: 30px;
 }
 h4{
   color: #F15A29;
 }
-h5{
-  color: #F15A29; 
-}
 #logo{
   padding-bottom: 5px;
   top: 200px;
+}
+.gallery{
+  border: 2px solid #F15A29;
+  color: #F15A29;
 }
 #happy{
   border: 3px solid rgb(231, 223, 223);
@@ -73,34 +80,20 @@ h5{
 .container:hover .middle {
   opacity: 1;
 }
-
-.text {
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-}
 .background-image{
   background-repeat: no-repeat;
 }
-.foods{
-  float: right;
-  margin-left: 600px;
-  justify-content: left;
-  top: 30px;
-}
 .food{
-  margin-right: auto;
-  display: block;
+  float: left;
 }
-#food{
+#meals{
   border: 3px solid rgb(243, 234, 234);
   padding: 10px;
   margin-right: 800px;
   float: left;
 }
-#drinks{
-  border: 3px solid rgb(243, 234, 234);
-  padding: 10px;
+.drink{
+  float: right;
 }
 .icons {
   width: 35px;
@@ -109,6 +102,10 @@ h5{
   position: absolute;
   left: 20px;
   border-top: 15px;
+}
+.overlay {
+  height: 100%;
+  width: 50%;
 }
 .flex-container {
   display: flex;
