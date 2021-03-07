@@ -10,18 +10,22 @@
 <body>
   <h1>Anitas Kitchen</h1>
   <div class="main">
-  <div style="background-image: url(images/Copy\ of\ landing.jpg)" >
+  <div style="background-image: url(images/Copy\ of\ landing.jpg)" class="background-image">
+    <!--<p>A menu icon:</p>-->
+    <div class="icons">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <img src="images/logoBig.png" alt="logo">
   <h2>We Provide The Best Food At The <strong>Right Price</strong></h2>
 </div>
 </div>
 <div class="row"> 
-  <div class="happy">
-    <h4>Happy Hour</h4>
-    <div class="party">
-      <h4>Party Time</h4>
+  <div class="hour">
+    <h4 id="happy">Happy Hour</h4>
+      <h4 id="party">Party Time</h4>
     </div>
-</div>
 <div class="container">
   <img src="images/breakfast.jpg" alt="breakfast" class="image">
   <div class="middle">
@@ -45,22 +49,26 @@
 <h1>Fast Food</h1>
 <h2>You'll love our delicious fast food</h2>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae laboriosam rerum natus accusamus officia illum eius expedita nisi porro unde. Autem iure quas quaerat cupiditate repellendus ullam nostrum veritatis quis.</p>
-<img src="images/fastFood1.jpg" alt="food1">
-<img src="images/fastFood2.jpg" alt="food2">
+<img src="images/fastFood1.jpg" alt="food1" id="food1">
+<img src="images/fastFood2.jpg" alt="food2" id="food2">
+<h5>View gallery</h5>
 </div>
-<h5>View galery</h5>
+<div class="drinks">
 <h1>Drinks</h1>
 <h2>We also produce delicious drinks</h2>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, necessitatibus distinctio! Dolores soluta, recusandae tempore quaerat a magni eum commodi iure consectetur voluptate, dolor, autem error repellendus voluptatum ad quo.</p>
-<h5>view galery</h5>
+<h5>View gallery</h5>
 <img src="images/drink1.jpg" alt="drink1">
-<div style="background-image: url(images/foodsBg.jpg)">
-<div class="Navigation">
+<img src="images/drink2.jpg" alt="drink2">
+</div>
+<div id="foods">
+<div style="background-image: url('images/foodsBg.jpg')" class="background-image">
+<div class="navigation">
   <ul>
-    <a href="Fastfood">Fastfood</a>
-    <a href="Drinks">Drinks</a>
-    <a href="Chicken">Chicken</a>
-    <a href="Rice">Rice</a>
+    <li><a href="Fastfood">Fastfood</a></li>
+    <li><a href="Drinks">Drinks</a></li>
+    <li><a href="Chicken">Chicken</a></li>
+    <li><a href="Rice">Rice</a></li>
   </ul>
 </div>
 <div class="slideshow-container">
@@ -74,6 +82,7 @@
 </div>
 </div>
 </div>
+
 <h4>Our happy customers</h4>
 <p><strong> George Richard</strong></p>
 <p>Great food!Menu is awesome. Their foods are not only great,but also in the right price. I'll highly recommend them.</p>

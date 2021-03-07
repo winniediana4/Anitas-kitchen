@@ -57,3 +57,22 @@ h5{
   margin: 0 0 0 10px;
   float: left;
 }
+.background-image{
+  background-repeat: no-repeat;
+}
+#food1{
+  margin-right: auto;
+  display: block;
+}
+#food2{
+  margin-right: auto;
+  display: block;
+}
+.icons {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  border-top: 15px;
+}
