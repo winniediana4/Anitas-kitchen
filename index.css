@@ -8,7 +8,7 @@ strong{
 }
 .main{
   text-align: center;
-  background-image: url(images/Copy\ of\ landing.jpg);
+  background-image: url("images/Copy\ of\ landing.jpg");
 }
 h4{
   color: #F15A29;
@@ -66,14 +66,16 @@ h5{
 .background-image{
   background-repeat: no-repeat;
 }
-#food1{
+.food{
   margin-right: auto;
   display: block;
 }
-#food2{
-  margin-right: auto;
-  display: block;
+#food{
+  border: 3px solid rgb(243, 234, 234);
+  padding: 10px;
+  margin-right: 800px;
 }
+
 .icons {
   width: 35px;
   height: 5px;
