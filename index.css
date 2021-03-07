@@ -1,23 +1,37 @@
-h2{
-  color: rgb(253, 250, 250);
-  font-weight: lighter;
-  opacity: 0.8;
-}
-strong{
-  color: white;
-}
 .main{
   text-align: center;
   background-image: url("images/Copy\ of\ landing.jpg");
 }
+strong{
+  color: white;
+}
+p.text{
+  color: lightgray;
+  font-size: 30px;
+}
 h4{
   color: #F15A29;
 }
-p{
-  color: black;
-}
 h5{
   color: #F15A29; 
+}
+#logo{
+  padding-bottom: 5px;
+  top: 200px;
+}
+#happy{
+  border: 3px solid rgb(231, 223, 223);
+  padding: 40px;
+  margin: 0;
+  background-color: rgb(231, 223, 223);
+  color: black;
+}
+#party{
+  border: 3px solid #F15A29;
+  padding: 40px;
+  margin: 0;
+  background-color: #F15A29;
+  color: white;
 }
 .container {
   float: left;
@@ -27,6 +41,12 @@ h5{
   content: "";
   display:table;
   clear: both;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.row{
+  margin: 0;
 }
 .image {
   opacity: 1;
@@ -59,12 +79,14 @@ h5{
   padding: 16px 32px;
   text-align: center;
 }
-.Fastfood{
-  margin: 0 0 0 10px;
-  float: left;
-}
 .background-image{
   background-repeat: no-repeat;
+}
+.foods{
+  float: right;
+  margin-left: 600px;
+  justify-content: left;
+  top: 30px;
 }
 .food{
   margin-right: auto;
@@ -74,8 +96,12 @@ h5{
   border: 3px solid rgb(243, 234, 234);
   padding: 10px;
   margin-right: 800px;
+  float: left;
 }
-
+#drinks{
+  border: 3px solid rgb(243, 234, 234);
+  padding: 10px;
+}
 .icons {
   width: 35px;
   height: 5px;
@@ -85,14 +111,14 @@ h5{
   border-top: 15px;
 }
 .flex-container {
-  display: flex;;
+  display: flex;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
 .nav{
   max-width: 960px;
