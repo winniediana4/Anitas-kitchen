@@ -8,6 +8,7 @@ strong{
 }
 .main{
   text-align: center;
+  background-image: url(images/Copy\ of\ landing.jpg);
 }
 h4{
   color: #F15A29;
@@ -19,8 +20,13 @@ h5{
   color: #F15A29; 
 }
 .container {
-  position: relative;
-  width: 50%;
+  float: left;
+  width: 25%;
+}
+.row:after{
+  content: "";
+  display:table;
+  clear: both;
 }
 .image {
   opacity: 1;
@@ -75,4 +81,42 @@ h5{
   position: absolute;
   left: 20px;
   border-top: 15px;
+}
+.flex-container {
+  display: flex;;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.nav{
+  max-width: 960px;
+  margin:0 auto;
+  padding: 20px 0;
+  margin-right: 0;
+  display: flex;
+  
+}
+nav>li{
+  text-align: right;
+  border: 10px solid grey;
+}
+ul>li{
+  display: inline-block;
+}
+nav>ul>li>a{
+  padding: 30px;
+  margin: auto;
+  width: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+ul>li>a:hover{
+  color: #F15A29;
+  background: white;
 }
