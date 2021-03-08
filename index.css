@@ -26,7 +26,7 @@ p.text{
 }
 .icons {
   position: absolute;
-  height: 80px;
+  height: 40px;
   width: 60px;
   margin-left: 4%;
   margin-top: 4%;
@@ -45,4 +45,20 @@ p.text{
   position: absolute;
   top: 533px;
   left: 0px;
+}
+.row > div{
+  border: 1px solid purple;
+  width: 25%;
+}
+#time > div{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  border: 1px solid yellow;
+}
+#breakfast{
+  background-image: url(images/breakfast.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
