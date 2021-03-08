@@ -1,9 +1,9 @@
-@media only screen and (min-width:480px){
+/* @media only screen and (min-width:480px){
   html{
     color: black;
     background-color: #F15A29;
   }
-}
+} */
 .main{
   text-align: center;
   background-image: url("images/Copy\ of\ landing.jpg");
@@ -22,7 +22,6 @@ strong{
 p.text{
   color: rgb(241, 235, 235);
   font-size: 30px;
-  line-height: px;
 }
 .icons {
   position: absolute;
@@ -45,6 +44,10 @@ p.text{
   position: absolute;
   top: 533px;
   left: 0px;
+  color: white;
+  background-color: #F15A29;
+  text-align: center;
+  font-size: 22px;
 }
 .row > div{
   border: 1px;
@@ -54,10 +57,10 @@ p.text{
   display: flex;
   flex-direction: column;
   height: 50%;
-  border: 1px solid yellow;
 }
 #happy{
   background-color: rgb(223, 213, 213);
+  color: black;
 }
 #breakfast{
   background-image: url(images/breakfast.jpg);
@@ -73,7 +76,19 @@ p.text{
 }
 #dinner{
   background-image: url(images/dinner.jpg);
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.fastfood{
+  background-image: url(images/fastFood1.jpg), url(images/fastFood2.jpg);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  height: 50%;
+  width: 30%;
+  border: 14px solid rgb(255, 247, 247);
+  position: absolute;
+  top: 820px;
+  left: 60px;
+  padding: 10px;
 }
