@@ -89,6 +89,19 @@ p.text{
   border: 14px solid rgb(255, 247, 247);
   position: absolute;
   top: 820px;
-  left: 60px;
+  left: 200px;
+  padding: 10px;
+}
+.drinks{
+  background-image: url(images/drink2.jpg), url(images/drink1.jpg);
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  height: 50%;
+  width: 30%;
+  border: 14px solid rgb(255, 247, 247);
+  position: absolute;
+  bottom: -950px;
+  right: 200px;
   padding: 10px;
 }
