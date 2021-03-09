@@ -9,6 +9,7 @@
   background-image: url("images/Copy\ of\ landing.jpg");
   top: 0px;
   left: 0px;
+  right: 0px;
   position: absolute;
   width: 100%;
   padding: 40px;
@@ -44,6 +45,7 @@ p.text{
   position: absolute;
   top: 527px;
   left: 0px;
+  margin-right: 0px;
   color: white;
   background-color: #F15A29;
   text-align: center;
@@ -79,31 +81,49 @@ p.text{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.fastfood{
-  background-image: url(images/fastFood1.jpg), url(images/fastFood2.jpg);
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
+#container{
   display: flex;
-  height: 60%;
-  width: 31%;
-  border: 14px solid rgb(246, 246, 252);
+  flex-direction: column;
   position: absolute;
-  top: 820px;
-  left: 100px;
-  padding: 2px;
+  top: 900px;
+  height: 1000px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
 }
-.drinks{
-  background-image: url(images/drink1.jpg), url(images/drink2.jpg);
-  background-position: left, right;
-  background-repeat: no-repeat, no-repeat;
+#food{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+#ale{
   display: flex;
   height: 50%;
-  width: 36%;
-  border: 14px solid rgb(246, 246, 252);
-  position: absolute;
-  bottom: -980px;
-  right: 100px;
+  width: 100%;
   padding: 10px;
+}
+.fastfood{
+ display: flex;
+ flex-direction: column;
+ height: 400%;
+ width: 500px;
+ border: 10px solid white;
+ box-shadow: 0px 0px 5px black;
+ margin-bottom: 300px;
+}
+#text1{
+
+}
+.drinks{
+display: flex;
+flex-direction: column;
+height: 200px;
+width: 300px;
+}
+#text2{
+margin: left;
 }
 #gallery1{
   border: 1px solid #F15A29;

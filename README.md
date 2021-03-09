@@ -1,5 +1,5 @@
 # Anitas Kitchen
-#### A website's landin page reproduction, {08/03/2021}
+#### A website's landing page reproduction, {08/03/2021}
 #### Author
 Winnie Diana Anyango
 ## Description
