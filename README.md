@@ -15,8 +15,6 @@ To access this project on your local files, you can clone it using these steps
 1. This will clone the repositoty into your local folder
 ### Live Site
 View [live](https://winniediana4.github.io/Anitas-kitchen/)
-### Licence
-This project is under the  [MIT](LICENSE) licence
 ## Known Bugs
 {No known bugs.}
 ## Technologies Used
@@ -25,5 +23,5 @@ This project is under the  [MIT](LICENSE) licence
 1. Git
 ## Support and contact details
 For inquiries or contributions, you can reach me at deinawinnie84@gmail.com.
-### Licence
+### License
 This project is under the  [MIT](LICENSE) license
