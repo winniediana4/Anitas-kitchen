@@ -124,6 +124,7 @@ width: 300px;
 }
 #text2{
 margin: left;
+flex-wrap: wrap-reverse;
 }
 #gallery1{
   border: 1px solid #F15A29;
