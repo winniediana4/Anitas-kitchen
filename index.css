@@ -1,9 +1,9 @@
-/* @media only screen and (min-width:480px){
+ /* @media only screen and (min-width:400px){ 
   html{
     color: black;
     background-color: #F15A29;
   }
-} */
+}*/
 .main{
   text-align: center;
   background-image: url("images/Copy\ of\ landing.jpg");
@@ -19,7 +19,7 @@
 strong{
   color: white;
 }
-p.text{
+p.text{ 
   color: rgb(241, 235, 235);
   font-size: 30px;
 }
@@ -42,7 +42,7 @@ p.text{
   width: 100%;
   border: 1px;
   position: absolute;
-  top: 533px;
+  top: 527px;
   left: 0px;
   color: white;
   background-color: #F15A29;
@@ -84,24 +84,29 @@ p.text{
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
-  height: 50%;
-  width: 30%;
-  border: 14px solid rgb(255, 247, 247);
+  height: 60%;
+  width: 31%;
+  border: 14px solid rgb(246, 246, 252);
   position: absolute;
   top: 820px;
-  left: 200px;
-  padding: 10px;
+  left: 100px;
+  padding: 2px;
 }
 .drinks{
-  background-image: url(images/drink2.jpg), url(images/drink1.jpg);
-  background-position: right, left;
+  background-image: url(images/drink1.jpg), url(images/drink2.jpg);
+  background-position: left, right;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   height: 50%;
-  width: 30%;
-  border: 14px solid rgb(255, 247, 247);
+  width: 36%;
+  border: 14px solid rgb(246, 246, 252);
   position: absolute;
-  bottom: -950px;
-  right: 200px;
+  bottom: -980px;
+  right: 100px;
   padding: 10px;
+}
+#gallery1{
+  border: 1px solid #F15A29;
+  color: #F15A29;
+  height: 25px;
 }
