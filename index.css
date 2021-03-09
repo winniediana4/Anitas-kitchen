@@ -134,7 +134,7 @@ float: left;
   height: 600px;
   width: 100%;
   position: absolute;
-  bottom: -210%;
+  bottom: -298%;
   margin-right: 0px;
   justify-content: center;
 }
@@ -181,7 +181,7 @@ float: left;
   width: 70%;
   border: 5px solid rgb(240, 237, 237);
   position: absolute;
-  bottom: -270%;
+  bottom: -360%;
   text-align: center;
   font-size: 22px;
   justify-content: center;
